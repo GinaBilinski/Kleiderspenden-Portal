@@ -1,0 +1,16 @@
+.img-logo{
+    width: auto;
+    height: 50px;
+}
+
+.gradient-bg {
+        background: linear-gradient(to right, #123456, #1664b1, #123456); 
+}
+
+.underline-none{
+    text-decoration: none;
+}
+
+#form-abgabe, #form-abholung, #spende-abgabe, #spende-abholung {
+    display: none;
+}
