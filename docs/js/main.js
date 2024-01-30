@@ -44,12 +44,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-    // Event-Listener für das Formular-Submit von 'form-abholung'
+    // Event-Listener für Button um Formular 'form-abholung' abzusenden 
     document.getElementById('form-abholung').addEventListener('submit', function(event) {
         event.preventDefault();
         var plzWert = document.getElementById('postleitzahl').value;
         if (plzWert.length >= 2 && !plzWert.startsWith('12')) {
-            // Anzeigen der Fehlermeldung und Verhindern des Formular-Submit
+            // Anzeigen der Fehlermeldung und Verhindern das Formular abzusenden
             plzFehlerAnzeigen(true, document.getElementById('postleitzahl'));
             return;
         }
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-    // Event-Listener für das Formular-Submit von 'form-abgabe'
+    // Event-Listener für Button um Formular 'form-abgabe' abzusenden 
     document.getElementById('form-abgabe').addEventListener('submit', function(event) {
         event.preventDefault();
         // Speichern der Formulardaten und Weiterleitung zur Bestätigungsseite
