@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Funktion zur Erstellung und Anzeige der Fehlermeldung, wenn die PLZ ungültig ist
+    // Funktion zur Erstellung und Anzeige der Fehlermeldung bei ungültiger PLZ
     function plzFehlerAnzeigen(anzeigen, plzFeld) {
         let plzFehlermeldung = plzFeld.nextElementSibling;
         if (!plzFehlermeldung) {
