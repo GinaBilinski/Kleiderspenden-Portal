@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Formulardaten aus dem lokalen Speicher abrufen
     var formDaten = JSON.parse(localStorage.getItem('formDaten'));
     if (formDaten) {
         // Setzen des Namens im Dankessatz

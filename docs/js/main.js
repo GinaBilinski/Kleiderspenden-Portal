@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('formDaten', JSON.stringify(formDaten));
     }
 
-    // Event-Listener für Buttons
+    // Event-Listener für Buttons zur Auswahl der Spendenart
     document.getElementById('btn-abgabe').addEventListener('click', function() {
         document.getElementById('form-abgabe').style.display = 'block';
         document.getElementById('form-abholung').style.display = 'none';
